@@ -26,7 +26,7 @@ pip3 install aubio eyed3
 3. Run it using Python:
 
 ```bash
-python3 extract_bpm.py
+python3 extract_bpms.py
 ```
 
 The script will automatically analyze all `.mp3` files in the current directory (and its subdirectories), calculate the BPM, and update the metadata.
