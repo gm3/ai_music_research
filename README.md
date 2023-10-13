@@ -13,11 +13,11 @@ This script recursively scans through a directory, identifies `.mp3` files, calc
 
 You can install all these prerequisites using the following commands:
 
-\```bash
+```bash
 sudo apt update
 sudo apt install python3-pip ffmpeg -y
 pip3 install aubio eyed3
-\```
+```
 
 ## Usage
 
@@ -25,9 +25,9 @@ pip3 install aubio eyed3
 2. Place the script in the root of the directory containing your `.mp3` files.
 3. Run it using Python:
 
-\```bash
+```bash
 python3 analyze_bpm.py
-\```
+```
 
 The script will automatically analyze all `.mp3` files in the current directory (and its subdirectories), calculate the BPM, and update the metadata.
 
