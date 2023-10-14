@@ -21,12 +21,12 @@ pip3 install aubio eyed3
 
 ## Usage
 
-1. Save the script to a `.py` file, for instance, `analyze_bpm.py`.
+1. Put all your mp3s and wavs into one folder.
 2. Place the script in the root of the directory containing your `.mp3` files.
 3. Run it using Python:
 
 ```bash
-python3 analyze_bpm.py
+python3 extract_bpms.py
 ```
 
 The script will automatically analyze all `.mp3` files in the current directory (and its subdirectories), calculate the BPM, and update the metadata.
